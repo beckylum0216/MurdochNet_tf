@@ -1,8 +1,8 @@
 class Pixel(object):
     positionX = 0
     positionY = 0
-    state = False
-    stateNext = False
+    state = 0.00
+    stateNext = 0.00
 
     def setpositionx(self, inputX):
         self.positionX = inputX
